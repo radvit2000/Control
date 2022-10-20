@@ -39,7 +39,7 @@ string[] SortArrayLessThree(string[] array)
             len--;
         }
     }
-    
+
     string[] sortArray = new string[len];
     int sortId = 0;
     for (int i = 0; i < reservArray.Length; i++)
@@ -56,5 +56,4 @@ string[] SortArrayLessThree(string[] array)
 string[] array = Input();
 string[] sortArray = SortArrayLessThree(array);
 WriteStringArray(array);
-WriteStringArray(sortArray);
-
+WriteStringArray(sortArray); 
